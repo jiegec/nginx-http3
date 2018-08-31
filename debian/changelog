@@ -1,11 +1,20 @@
-nginx (1.13.12-2) UNRELEASED; urgency=low
+nginx (1.14.0-1) unstable; urgency=medium
 
   [ Kartik Mistry ]
   * debian/control:
     + Removed duplicate Build-Depends.
     + Use https in Homepage.
 
- -- Kartik Mistry <kartik@debian.org>  Thu, 30 Aug 2018 13:41:33 +0530
+  [ Christos Trochalakis ]
+  * http-lua: Upgrade to 0.10.13
+  * http-lua: Drop our OpenSSL patch, OpenSSL 1.1 is now supported upstream
+  * http-fancyindex: Upgrade to 0.4.3
+  * Order nginx after nss-lookup.target to synchronize host/network name lookups
+    (Closes: #900790)
+  * Merge ru translations.
+    Thanks to Lev Lamberov (Closes: #883104)
+
+ -- Christos Trochalakis <ctrochalakis@debian.org>  Fri, 31 Aug 2018 15:28:04 +0300
 
 nginx (1.13.12-1) unstable; urgency=medium
 
