@@ -1,10 +1,16 @@
-nginx (1.14.0-2) UNRELEASED; urgency=low
+nginx (1.14.1-1) unstable; urgency=medium
 
   [ Kartik Mistry ]
   * Removed unused lintian override.
   * Fixed trailing whitespaces in changelog.
 
- -- Kartik Mistry <kartik@debian.org>  Thu, 06 Sep 2018 16:20:03 +0530
+  [ Christos Trochalakis ]
+  * New upstream version. (Closes: #913090)
+    + CVE-2018-16843 Excessive memory usage in HTTP/2
+    + CVE-2018-16844 Excessive CPU usage in HTTP/2
+    + CVE-2018-16845 Memory disclosure in the ngx_http_mp4_module
+
+ -- Christos Trochalakis <ctrochalakis@debian.org>  Wed, 07 Nov 2018 07:16:00 +0200
 
 nginx (1.14.0-1) unstable; urgency=medium
 
