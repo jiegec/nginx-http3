@@ -1,3 +1,12 @@
+nginx (1.14.2-2) UNRELEASED; urgency=low
+
+  [ Kartik Mistry ]
+  * po/tr.po:
+    + Added Turkish translation. Thanks Atila KOÇ <koc@artielektronik.com.tr>
+      (Closes: #915728)
+
+ -- Kartik Mistry <kartik@debian.org>  Thu, 06 Dec 2018 20:01:00 +0530
+
 nginx (1.14.2-1) unstable; urgency=medium
 
   [ Olaf van der Spek ]
