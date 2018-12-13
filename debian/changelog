@@ -1,3 +1,14 @@
+nginx (1.14.2-1) unstable; urgency=medium
+
+  [ Olaf van der Spek ]
+  * Reference PHP 7.3 (Closes: 913250)
+
+  [ Christos Trochalakis ]
+  * Adjust fastcgi_split_path_info snippet to handle the `/example.php/` case
+    (Closes: #911398)
+
+ -- Christos Trochalakis <ctrochalakis@debian.org>  Thu, 13 Dec 2018 10:05:37 +0200
+
 nginx (1.14.1-1) unstable; urgency=medium
 
   [ Kartik Mistry ]
