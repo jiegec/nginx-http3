@@ -7,6 +7,8 @@ nginx (1.14.2-2) unstable; urgency=medium
 
   [ Christos Trochalakis ]
   * http-dav-ext: Upgrade to 3.0.0 (Closes: #851651)
+  * Use a minimal export of the upstream signing key
+  * Bump Standards-Version, no changes needed
 
  -- Christos Trochalakis <ctrochalakis@debian.org>  Thu, 27 Dec 2018 12:49:34 +0200
 
