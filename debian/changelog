@@ -1,3 +1,12 @@
+nginx (1.14.2-3) unstable; urgency=high
+
+  * Backport upstream fixes for 3 CVEs (Closes: #935037)
+    Those fixes affect Nginx HTTP/2 implementation, which might cause
+    excessive memory consumption and CPU usage.
+    (CVE-2019-9511, CVE-2019-9513, CVE-2019-9516).
+
+ -- Christos Trochalakis <ctrochalakis@debian.org>  Mon, 19 Aug 2019 11:30:08 +0300
+
 nginx (1.14.2-2) unstable; urgency=medium
 
   [ Kartik Mistry ]
