@@ -1,3 +1,13 @@
+nginx (1.16.1-1) unstable; urgency=medium
+
+  * New upstream version (Closes: #929200)
+  * Follow stable 1.16 releases (Closes: #929199)
+  * Drop already included debian patches
+  * http-ndk: Upgrade to 0.3.1
+  * http-lua: Upgrade to 0.10.15
+
+ -- Christos Trochalakis <ctrochalakis@debian.org>  Mon, 09 Sep 2019 18:24:43 +0300
+
 nginx (1.14.2-3) unstable; urgency=high
 
   * Backport upstream fixes for 3 CVEs (Closes: #935037)
