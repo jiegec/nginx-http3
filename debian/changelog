@@ -1,3 +1,10 @@
+nginx (1.16.1-2) unstable; urgency=medium
+
+  * http-lua: Downgrade to 0.10.13 (Closes: #941917)
+    Temporary fix FTBFS on architectures where Luajit is not available.
+
+ -- Christos Trochalakis <ctrochalakis@debian.org>  Sat, 12 Oct 2019 17:59:23 +0300
+
 nginx (1.16.1-1) unstable; urgency=medium
 
   * New upstream version (Closes: #929200)
