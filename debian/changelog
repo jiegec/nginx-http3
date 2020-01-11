@@ -1,3 +1,10 @@
+nginx (1.16.1-3) unstable; urgency=high
+
+  * Handle CVE-2019-20372, error page request smuggling
+    (Closes: #948579)
+
+ -- Christos Trochalakis <ctrochalakis@debian.org>  Sat, 11 Jan 2020 09:36:00 +0200
+
 nginx (1.16.1-2) unstable; urgency=medium
 
   * http-lua: Downgrade to 0.10.13 (Closes: #941917)
